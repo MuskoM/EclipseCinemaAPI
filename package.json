@@ -1,0 +1,19 @@
+{
+  "name": "EclipseCinemaAPI",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/MuskoM/EclipseCinemaAPI.git",
+  "type": "module",
+  "author": "MuskoM",
+  "scripts": {
+  "start": "nodemon ./server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.6"
+  }
+}
